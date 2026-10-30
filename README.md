@@ -53,25 +53,25 @@ CREATE TABLE TblAsignacionClases (
 ### Captura 1: Prueba de Conexión Exitosa
 *(Muestra el mensaje de confirmación al presionar "Probar Conexión")*
 
-![Prueba de Conexión Exitosa](docs/captura1_conexion.png)
+![Prueba de Conexión Exitosa](captura1_conexion.png)
 
 ---
 
 ### Captura 2: Captura y Registro de Datos Dinámicos
 *(Muestra el formulario con los campos de Docente, Departamento, Materia, Créditos y Aula completados)*
 
-![Registro de Datos](docs/captura2_registro.png)
+![Registro de Datos](captura2_registro.png)
 
 ---
 
 ### Captura 3: Consulta Relacional (INNER JOIN) en DataGridView
 *(Muestra los datos cruzados de las 3 tablas reflejados en el DataGridView tras presionar "Mostrar Carga Académica")*
 
-![Consulta DataGridView](docs/captura3_datagrid.png)
+![Consulta DataGridView](captura3_datagrid.png)
 
 ---
 
 ### Captura 4: Verificación de Registros en MySQL Workbench
 *(Muestra la ejecución de las consultas SELECT directamente en MySQL Workbench)*
 
-![Verificación MySQL Workbench](docs/captura4_workbench.png)
+![Verificación MySQL Workbench](captura4_workbench.png)
