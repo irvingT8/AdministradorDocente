@@ -50,28 +50,21 @@ CREATE TABLE TblAsignacionClases (
 
 ## 3. Evidencias de Funcionamiento (Screenshots)
 
-### Captura 1: Prueba de Conexión Exitosa
-*(Muestra el mensaje de confirmación al presionar "Probar Conexión")*
+### Captura 1: Estado Inicial y Consulta Relacional en Base de Datos
+*(Muestra el estado inicial del sistema con los registros precargados en el DataGridView y la verificación correspondiente de la tabla de asignaciones en MySQL Workbench)*
 
-![Prueba de Conexión Exitosa](captura1_conexion.png)
-
----
-
-### Captura 2: Captura y Registro de Datos Dinámicos
-*(Muestra el formulario con los campos de Docente, Departamento, Materia, Créditos y Aula completados)*
-
-![Registro de Datos](captura2_registro.png)
+![Estado Inicial del Sistema](captura1_inicial.png)
 
 ---
 
-### Captura 3: Consulta Relacional (INNER JOIN) en DataGridView
-*(Muestra los datos cruzados de las 3 tablas reflejados en el DataGridView tras presionar "Mostrar Carga Académica")*
+### Captura 2: Captura de Datos Dinámicos y Confirmación de Registro
+*(Muestra el formulario completado con el nuevo docente "Eduardo Olivares", la confirmación de éxito en pantalla y el estado de la base de datos)*
 
-![Consulta DataGridView](captura3_datagrid.png)
+![Inserción de Registro Exitoso](captura2_registro.png)
 
 ---
 
-### Captura 4: Verificación de Registros en MySQL Workbench
-*(Muestra la ejecución de las consultas SELECT directamente en MySQL Workbench)*
+### Captura 3: Actualización Dinámica de la Carga Académica (INNER JOIN)
+*(Muestra la consulta relacional actualizada reflejando los nuevos datos integrados de las 3 tablas en el DataGridView y su correspondiente `SELECT` cruzado en MySQL Workbench)*
 
-![Verificación MySQL Workbench](captura4_workbench.png)
+![Consulta Relacional Actualizada](captura3_actualizada.png)
